@@ -1,0 +1,36 @@
+h3 {
+	font-size: 30px;
+	text-align: center;
+}
+
+.explain {
+	background-color: #dbdbdb;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.explain__p {
+	margin-top: 70px;
+	font-size: 25px;
+}
+
+span {
+	border-bottom: 2px solid black;
+}
+
+li {
+	font-size: 20px;
+	margin-bottom: 30px;
+	padding: 10px;
+	transition: .2s;
+	
+}
+
+li:hover {
+	transition: .2s;
+	padding: 20px;
+	border-radius: 15px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	list-style-type: none;
+	background-color: white;
+}

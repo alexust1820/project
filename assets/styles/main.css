@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+	font-family: "Helvetica";
+}
+
+* {
+	box-sizing: border-box; 
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 1024px;
+	margin:0 auto;
+}
+
+h1 {
+	font-size: 50px;
+	border-bottom: 3px solid black;
+	display: inline-block;
+	transition: .2s;
+
+}
+
+h1:hover {
+	transition: .2s;
+	background-color: orange;
+	border-bottom: none;
+	padding: 10px;
+}
+
+p {
+	font-size: 25px;
+}
+
+img {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
