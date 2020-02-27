@@ -6,12 +6,22 @@
 	<link rel="stylesheet" type="text/css" href="./assets/styles/main.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/explain.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/working.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/blockchain.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/header.css">
 </head>
 <body>
+	<header>
+		<div class="container">
+			<nav>
+				<a class="nav" href="#working">Как это работает?</a>
+				<a class="nav" href="#blockchain">Блокчейн</a>
+				<a class="nav" href=""></a>
+			</nav>
+		</div>
+	</header>
 	<section class="main">
 		<div class="container">
 			<h1 class="main__h1">Биткоин</h1>
-
 				<p>Это пиринговая платёжная система, использующая одноимённую единицу для учёта операций. Для обеспечения функционирования и защиты системы используются криптографические методы, но при этом вся информация о транзакциях между адресами системы доступна в открытом виде.</p>
 					<img src="https://i.gifer.com/72gi.gif">
 		</div>
@@ -26,7 +36,7 @@
 			</ul>
 		</div>
 	</section>
-	 <section class="working">
+	 <section id="working" class="working">
 		 <div class="container">
 			<h3>Как это работает?</h3>
 		<p class="working__p">Давай возьмем для примера банк "X". У банка "X" есть сервера где проходят транзакции и эти сервера стоят в определенном месте, а биткоин децентрализован.</p>
@@ -34,10 +44,23 @@
 				<li><span>Сервер</span> — мощный вычислительный компьютер, постоянно подключенный к сети интернет и к электропитанию 24/7, то есть постоянно.</li>
 				<li><span>Децентрализация</span> - это передача полномочий и обязанностей по принятию решений из центра в другие, менее значимые центры.</li>
 			</ul>
-			<h4>Это выглядит примерно так ( я про децентрализацию)</h4>
+			<h4>Это выглядит примерно так ( я про децентрализацию )</h4>
 			<img class="working__img" src="./assets/img/uncenter.jpg">
 		</div>
-		
+	</section>
+	<section id="blockchain" class="blockchain">
+		<div class="container">
+			<h3>Что такое блокчейн?</h3>
+			<p class="why">(На основе системы блокчейн строится вся суть биткоина)</p>
+			<ul>
+				<li>
+					<span>Цепочка блоков, или блокчейн</span>
+					 - это публичный коллективный регистр на котором основана вся сеть Биткойн. Все подтвержденные транзакции включаются в цепочку блоков. На основе этой информации, биткойн-кошельки могут рассчитать остаток вашего баланса и проверить, что в новых транзакциях биткойны действительно тратятся их владельцем.
+				</li>
+			</ul>
+			<h4>Представим, что у вас есть ежедневник</h4>
+			<img src="./assets/img/screenshot__1.jpg">
+		</div>
 	</section>
 </body>
 </html>
