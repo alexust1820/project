@@ -4,6 +4,18 @@ header {
 	text-align: center;
 }
 
+.header {
+	display: flex;
+	justify-content: space-around;
+}
+
 .nav {
 	margin-right: 10px;
+}
+
+.compass {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin: 0;
 }

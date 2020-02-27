@@ -1,0 +1,19 @@
+.mining__p {
+	text-align: left;
+	background-color: #ffc68a;
+	padding: 15px;
+}
+
+.mining__li {
+	display: inline-block;
+}
+
+.mining__img {
+	width: 200px;
+	height: 200px;
+}
+
+.mine {
+	display: flex;
+	justify-content: space-between;
+}
