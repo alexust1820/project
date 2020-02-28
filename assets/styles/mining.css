@@ -1,3 +1,7 @@
+.mining {
+	padding-bottom: 45px;
+}
+
 .mining__p {
 	text-align: left;
 	background-color: #ffc68a;
@@ -16,4 +20,10 @@
 .mine {
 	display: flex;
 	justify-content: space-between;
+}
+
+.mining__gif {
+	height: 400px;
+	width: 700px;
+
 }
