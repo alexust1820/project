@@ -1,1 +1,1 @@
-# [Bitcoin](https://github.com/alexust1820/project/)
+# [Bitcoin](https://alexust1820.github.io/project/)
